@@ -43,7 +43,7 @@
        <div class="header-nav">
            <div class="navigation">
                <nav class="navbar navbar-expand-lg navbar-light ">
-                   <a class="navbar-brand" href="index.html"><img src="template/assets/images/logo/logo.png" alt=""></a> <!-- logo -->
+                   <a class="navbar-brand" href="/"><img src="/template/assets/images/logo/logo.png" alt=""></a> <!-- logo -->
                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                        <span class="toggler-icon"></span>
                        <span class="toggler-icon"></span>
@@ -56,17 +56,15 @@
                                <a class="nav-link" href="/">Home</a>
                            </li>
                            <li class="nav-item">
-                               <a class="nav-link smooth" href="/#profil">Profil</a>
-                           </li>
-                           <li class="nav-item">
-                               <a class="nav-link" href="#">Services</a>
+                               <a class="nav-link smooth" href="/ #profil">Profil</a>
                                <ul class="sub-menu">
-                                   <li><a href="services.html">Services</a></li>
-                                   <li><a href="services-details.html">Services Details</a></li>
+                                   <li><a href="/profil">Profil Prodi</a></li>
+                                   <li><a href="/profil/visi-misi">Visi, Misi Dan Tujuan</a></li>
+                                   <li><a href="/profil/struktur-organisasi">Struktur Organisasi</a></li>
                                </ul> <!-- sub menu -->
                            </li>
                            <li class="nav-item">
-                               <a class="nav-link" href="#">Fasilitas</a>
+                               <a class="nav-link smooth" href="/#fasilitas">Fasilitas</a>
                                <ul class="sub-menu">
                                    <li><a href="case-study.html">case study</a></li>
                                    <li><a href="case-details.html">Case Details</a></li>
@@ -83,6 +81,14 @@
                                    <li><a href="team-details.html">team details</a></li>
                                </ul> <!-- sub menu -->
                            </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="#">Services</a>
+                               <ul class="sub-menu">
+                                   <li><a href="services.html">Services</a></li>
+                                   <li><a href="services-details.html">Services Details</a></li>
+                               </ul> <!-- sub menu -->
+                           </li>
+
                            <li class="nav-item">
                                <a class="nav-link" href="#">Blog</a>
                                <ul class="sub-menu">

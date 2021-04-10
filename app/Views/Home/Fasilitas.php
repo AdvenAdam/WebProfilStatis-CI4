@@ -1,6 +1,6 @@
 <!--====== WHO WE ARE PART START ======-->
 
-<div class="who-we-are-area pt-110 pb-120">
+<div class="who-we-are-area pt-110 pb-120" id="fasilitas">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">

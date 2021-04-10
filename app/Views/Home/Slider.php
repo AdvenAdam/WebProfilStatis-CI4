@@ -11,7 +11,7 @@
                                 <span data-animation="fadeInLeft" data-delay="0.5s"><?= $item['prodi']; ?></span>
                                 <h1 data-animation="fadeInLeft" data-delay="0.9s" class="title"><?= $item['judul']; ?></h1>
                                 <p data-animation="fadeInLeft" data-delay="1.3s"><?= $item['isi']; ?> </p>
-                                <a data-animation="fadeInUp" data-delay="1.6s" class="main-btn" href="services.html">Our Services <i class="fal fa-long-arrow-right"></i></a>
+                                <a data-animation="fadeInUp" data-delay="1.6s" class="main-btn" href="<?= $item['link']; ?>">lihat Selengkapnya <i class="fal fa-long-arrow-right"></i></a>
                             </div> <!-- banner content -->
                         </div>
                     </div> <!-- row -->
