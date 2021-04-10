@@ -1,6 +1,6 @@
 <!--====== BANNER PART START ======-->
 
-<div class="banner-active">
+<div class="banner-active" id="home">
     <?php foreach ($slider as $item) { ?>
         <div class="single-banner bg_cover" style="background-image: url(template/assets/images/<?= $item['gambar']; ?>);">
             <div class="banner-overlay">

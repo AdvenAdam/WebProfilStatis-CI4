@@ -6,6 +6,7 @@
 <?= $this->include('Home/Profil'); ?>
 <?= $this->include('Home/Dosen'); ?>
 <?= $this->include('Home/Kontak'); ?>
+<?= $this->include('Home/Berita'); ?>
 <?= $this->include('Home/Mitra'); ?>
 
 <?= $this->endSection(); ?>

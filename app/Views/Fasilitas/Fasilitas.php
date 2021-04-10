@@ -18,7 +18,6 @@
     </div> <!-- container -->
 </div>
 
-
 <div class="blog-standard-area pb-120">
     <div class="container">
         <div class="row justify-content-center">
@@ -27,16 +26,12 @@
                     <div class="single-blog-standard  mt-30">
                         <div class="blog-dteails-content blog-border">
                             <div class="blog-details-top">
-                                <span>Profil</span>
+                                <span>Fasilitas</span>
                                 <h2 class="title"><?= $title; ?></h2>
                             </div>
                             <div class="blog-details-bath">
-                                <h4 class="title">Visi</h4>
-                                <p><?= $visi; ?></p>
-                                <h4 class="title">Misi</h4>
-                                <p><?= $misi; ?></p>
-                                <h4 class="title">Tujuan</h4>
-                                <p><?= $tujuan; ?></p>
+                                <img src="/template/assets/images/fasilitas/<?= $gambar; ?>" alt="" class="mt-10 mb-20">
+                                <?= $isi; ?>
                             </div>
                             <div class="blog-details-quote text-center mt-30 mb-30">
                                 <p><span>by</span> Ki Hajar Dewantara</p>

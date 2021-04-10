@@ -21,7 +21,7 @@
                     <i class="fal fa-trophy"></i>
                     <h5 class="title">Akreditasi</h5>
                     <p>Lihat Akredtasi dari Prodi Pendidikan Teknnik Informatika dan Komputer</p>
-                    <a href="case-details.html"><i class="fal fa-long-arrow-right"></i></a>
+                    <a href="/fasilitas/akreditasi"><i class="fal fa-long-arrow-right"></i></a>
                 </div> <!-- what we do item -->
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 wow slideInUp" data-wow-duration="1s" data-wow-delay="0s">
@@ -29,7 +29,7 @@
                     <i class="fal fa-building"></i>
                     <h5 class="title">Fasilitas</h5>
                     <p>Lihat Fasilitas dari Prodi Pendidikan Teknnik Informatika dan Komputer</p>
-                    <a href="case-details.html"><i class="fal fa-long-arrow-right"></i></a>
+                    <a href="/fasilitas"><i class="fal fa-long-arrow-right"></i></a>
                 </div> <!-- what we do item -->
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0s">
@@ -37,7 +37,7 @@
                     <i class="fal fa-road"></i>
                     <h5 class="title">Jalur Penenrimaan</h5>
                     <p>Lihat Fasilitas dari Prodi Pendidikan Teknnik Informatika dan Komputer</p>
-                    <a href="case-details.html"><i class="fal fa-long-arrow-right"></i></a>
+                    <a href="/fasilitas/spmb"><i class="fal fa-long-arrow-right"></i></a>
                 </div> <!-- what we do item -->
             </div>
         </div> <!-- row -->

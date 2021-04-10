@@ -1,6 +1,6 @@
 <!--====== TEAM MEMBER PART START ======-->
 
-<div class="team-member-area mt-100 mb-100">
+<div class="team-member-area mt-100 mb-100" id="dosen">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -35,7 +35,7 @@
         </div> <!-- row -->
         <div class="row justify-content-center">
             <div class="col-lg-2 col-md-4 col-m-6 mt-100">
-                <a class="main-btn" href="#">Lihat lebih lengkap <i class="fal fa-long-arrow-right"></i></a>
+                <a class="main-btn" href="/dosen">Lihat lebih lengkap <i class="fal fa-long-arrow-right"></i></a>
             </div>
         </div><!--  row -->
     </div> <!-- container fluid -->

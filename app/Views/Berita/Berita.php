@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-title-item text-center">
-                    <h2 class="title"><?= $title; ?></h2>
+                    <h2><?= $title; ?></h2>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="/">Home </a></li>
@@ -29,14 +29,14 @@
                             <div class="blog-details-top">
                                 <span>Profil</span>
                                 <h2 class="title"><?= $title; ?></h2>
+                                <ul>
+                                    <li><i class="fal fa-at"></i><?= $author; ?></li>
+                                    <li><i class="fal fa-calendar-alt"></i> <?= $tanggal; ?></li>
+                                </ul>
                             </div>
                             <div class="blog-details-bath">
-                                <h4 class="title">Visi</h4>
-                                <p><?= $visi; ?></p>
-                                <h4 class="title">Misi</h4>
-                                <p><?= $misi; ?></p>
-                                <h4 class="title">Tujuan</h4>
-                                <p><?= $tujuan; ?></p>
+                                <img src="/template/assets/images/berita/<?= $gambar; ?>" alt="" class="mt-10 mb-20">
+                                <?= $isi; ?>
                             </div>
                             <div class="blog-details-quote text-center mt-30 mb-30">
                                 <p><span>by</span> Ki Hajar Dewantara</p>

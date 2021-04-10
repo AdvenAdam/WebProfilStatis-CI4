@@ -1,6 +1,6 @@
 <!--====== LATEST NEWS PART START ======-->
 
-<div class="latest-news-area gray-bg">
+<div class="latest-news-area gray-bg" id="berita">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -24,7 +24,7 @@
                                         <h4 class="title"><a href="blog-details.html"><?= $item['judul']; ?></a></h4>
                                         <img src="template/assets/images/berita/<?= $item['gambar']; ?>" alt="team-member" style="height: 200px;">
                                         <?= str_word_count($item['isi']) > 30 ? substr($item['isi'], 0, 100) . '...' : $item['isi'] ?><br>
-                                        <a class="main-btn" href="blog-details.html">Read More <i class="fal fa-long-arrow-right"></i></a>
+                                        <a class="main-btn" href="<?= $item['link']; ?>">Read More <i class="fal fa-long-arrow-right"></i></a>
                                     </div> <!-- lesast news item -->
                                 </div>
                             <?php } ?>

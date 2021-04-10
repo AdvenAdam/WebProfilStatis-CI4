@@ -16,7 +16,7 @@ class Profil extends BaseController
 	public function index()
 	{
 		$data = [
-			'title' => 'PTIK : PROFIL',
+			'title' => 'PTIK:PROFIL',
 		];
 		return view('profil/Profil', $data);
 	}

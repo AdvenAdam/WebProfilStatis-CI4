@@ -1,13 +1,13 @@
 <!--====== CONTACT US PART START ======-->
 
-<div class="contact-us-area bg_cover" style="background-image: url(template/assets/images/contact-bg.jpg)">
+<div class="contact-us-area bg_cover" style="background-image: url(template/assets/images/contact-bg.jpg)" id="kontak">
     <div class="contact-overlay">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section-title text-center">
-                        <span>contact us</span>
-                        <h2 class="title">Join Us To Get Free Consultations</h2>
+                        <span>Hubungi Kami</span>
+                        <h2 class="title">Kirim Kritik & Saran </h2>
                     </div> <!-- sevtion title -->
                 </div>
             </div> <!-- row -->

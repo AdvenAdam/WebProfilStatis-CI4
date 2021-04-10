@@ -53,10 +53,10 @@
                    <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                        <ul class="navbar-nav ml-auto">
                            <li class="nav-item">
-                               <a class="nav-link" href="/">Home</a>
+                               <a class="nav-link" href="/#home">Home</a>
                            </li>
                            <li class="nav-item">
-                               <a class="nav-link smooth" href="/ #profil">Profil</a>
+                               <a class="nav-link" href="/#profil">Profil</a>
                                <ul class="sub-menu">
                                    <li><a href="/profil">Profil Prodi</a></li>
                                    <li><a href="/profil/visi-misi">Visi, Misi Dan Tujuan</a></li>
@@ -64,41 +64,28 @@
                                </ul> <!-- sub menu -->
                            </li>
                            <li class="nav-item">
-                               <a class="nav-link smooth" href="/#fasilitas">Fasilitas</a>
+                               <a class="nav-link" href="/#fasilitas">Fasilitas</a>
                                <ul class="sub-menu">
-                                   <li><a href="case-study.html">case study</a></li>
-                                   <li><a href="case-details.html">Case Details</a></li>
-                                   <li><a href="coming-soon.html">coming soon</a></li>
-                                   <li><a href="error.html">error</a></li>
-                                   <li><a href="faq.html">faq</a></li>
-                                   <li><a href="pricing.html">pricing</a></li>
-                                   <li><a href="shop.html">shop</a></li>
-                                   <li><a href="shop-details.html">shop Details</a></li>
-                                   <li><a href="cart.html">Cart</a></li>
-                                   <li><a href="checkout.html">Checkout</a></li>
-                                   <li><a href="privacy.html">Privacy</a></li>
-                                   <li><a href="team.html">team</a></li>
-                                   <li><a href="team-details.html">team details</a></li>
+                                   <li><a href="/fasilitas/akreditasi">Akreditasi</a></li>
+                                   <li><a href="/fasilitas/gedung">Gedung Kuliah</a></li>
+                                   <li><a href="/fasilitas/laboratorium">Laboratorium</a></li>
+                                   <li><a href="/fasilitas/perpustakaan">Perpustakaan</a></li>
+                                   <li><a href="/fasilitas/studio">Studio Multimedia</a></li>
+                                   <li><a href="/fasilitas/spmb">Alur Pennerimaan</a></li>
                                </ul> <!-- sub menu -->
                            </li>
                            <li class="nav-item">
-                               <a class="nav-link" href="#">Services</a>
+                               <a class="nav-link" href="/#dosen">Pengajar</a>
                                <ul class="sub-menu">
-                                   <li><a href="services.html">Services</a></li>
-                                   <li><a href="services-details.html">Services Details</a></li>
+                                   <li><a href="/dosen">Profil Dosen</a></li>
                                </ul> <!-- sub menu -->
                            </li>
 
                            <li class="nav-item">
-                               <a class="nav-link" href="#">Blog</a>
-                               <ul class="sub-menu">
-                                   <li><a href="blog-standard.html">Blog Standard</a></li>
-                                   <li><a href="blog-grid.html">Blog Grid</a></li>
-                                   <li><a href="blog-details.html">Blog Details</a></li>
-                               </ul> <!-- sub menu -->
+                               <a class="nav-link" href="/#berita">Berita</a>
                            </li>
                            <li class="nav-item">
-                               <a class="nav-link" href="contact.html">Contact</a>
+                               <a class="nav-link" href="/#kontak">Kontak</a>
                            </li>
                        </ul>
                    </div>

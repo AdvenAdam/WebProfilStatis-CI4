@@ -33,10 +33,20 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+
 $routes->get('/profil', 'Profil::index');
 $routes->get('/profil/visi-misi', 'Profil::visiMisiTujuan');
 $routes->get('/profil/struktur-organisasi', 'Profil::strukturOrganisasi');
 
+$routes->get('/fasilitas', 'Fasilitas::index');
+$routes->get('/fasilitas/gedung', 'Fasilitas::gedung');
+$routes->get('/fasilitas/laboratorium', 'Fasilitas::laboratorium');
+$routes->get('/fasilitas/studio', 'Fasilitas::studio');
+$routes->get('/fasilitas/spmb', 'Fasilitas::spmb');
+$routes->get('/fasilitas/akreditasi', 'Fasilitas::akreditasi');
+
+$routes->get('/berita/(:segment)', 'Berita::index/$1');
+$routes->get('/Dosen', 'Dosen::index/$1');
 
 /*
  * --------------------------------------------------------------------

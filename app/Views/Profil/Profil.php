@@ -41,7 +41,7 @@
                             </div>
                             <div class="blog-details-quote text-center mt-30 mb-30">
                                 <p><span>by</span> Ki Hajar Dewantara</p>
-                                <h3 class="title">Ing Ngarsa Sung Tuladha, Ing Madya Mangun Karsa, Tut uri Handayani</h3>
+                                <h3 class="title">Ing Ngarsa Sung Tuladha, Ing Madya Mangun Karsa, Tut Wuri Handayani</h3>
                                 <i class="fas fa-quote-left"></i>
                             </div>
                             <div class="blog-details-bar d-flex justify-content-between mt-40 mb-50">

@@ -81,11 +81,12 @@ class Data extends BaseController
 	public function dataBerita()
 	{
 		$berita = [
-			[
+			'1' => [
 				'author'	=> 'adminPro',
 				'tanggal'	=> '05 Aug 2019',
 				'judul'		=> 'Mahasiswa PTIK Sabet Medali Perunggu di Jepang',
 				'gambar'	=> 'berita1.jpg',
+				'link'		=> '/berita/1',
 				'isi'		=> '<p>Mahasiswa Universitas Sebelas Maret (UNS) Surakarta berhasil meraih medali perunggu dalam ajang Advanced Innovation Jam (AI-JAM) Japan 2019 yang digelar di Accenture Innovation Hub Tokyo, Minggu (8/12/2019).</p>
 
 				<p>Ajang ini merupakan salah satu ajang kompetisi sekaligus pameran inovasi teknologi internasional terbesar di Jepang yang diikuti oleh 159 peserta yang terbuka untuk seluruh negara, termasuk tim dari UNS ini yang beranggotakan Nur Hijrah As Salam Al Ihsan (Pendidikan Teknik Informatika dan Komputer FKIP), Intan Wahyu Ningsih dan Nada Hidayatus Sangadah (Fisika FMIPA), Serta Tema Rizan Mumtaza dan Muhammad Nibraasuddin Aley Zulkarnaen (Informatika FMIPA).</p>
@@ -101,11 +102,12 @@ class Data extends BaseController
 				
 				<p>Tim tersebut secara bertahap melakukan pengembanagn aplikasi dan sistemnya. Sehingga mereka sangat terbuka dengan berbagai pihak yang ingin bekerja sama untuk merealisasikan ide yang dimiliki. Mereka pun mengharapkan dana dari investor dan juga pemerintah dalam proses pengembangan aplikasi ini.</p>'
 			],
-			[
+			'2' => [
 				'author'	=> 'Mikroptik',
 				'tanggal'	=> '28 Feb 2021',
 				'judul'		=> 'Pengabdian Masyarakat ke Desa Kemuning Bersama Permikomnas',
 				'gambar'	=> 'berita2.jpg',
+				'link'		=> '/berita/2',
 				'isi'		=> '<p>Kegiatan pengabdian masyarakat ini diadakan oleh permikomnas (Perhimpunan Mahasiswa Informatika dan Komputer Nasional) dalam rangka pengabdian ke SVN (Smart Village National). Kegiatan ini diadakan pada tanggal 26 dan 27 Februari 2021 di desa Kemuning. Dalam kegiatan ini peran mahasiswa sangatlah penting terkhususnya di bidang IT. Kegiatan ini sendiri diikuti oleh beberapa pengurus dari permikomnas sendiri dan berbagai universitas lain dengan jurusan IT. Dari prodi Pendidikan Teknik Informatika dan Komputer sendiri terdapat beberapa mahasiswa yang ikut dalam acara pengabdian masyarakat ini dengan nama sebagai berikut Paulus Lestyo Adhiatma, Hera Fatmawati, Ahmad Mishbahuddin, Natanael Junior Setiawan, dan Adven Adam K.</p>
 
 				<p>Dalam kegiatan kali ini dipandu oleh Bapak Bambang selaku relawan TIK. Pemberangkatan dilakukan pada pukul 07.00 WIB di Kampus V JPTK sebagai titik poin berkumpul dan berangkat menuju ke Desa Kemuning Kecamatan Ngargoyoso, Kabupaten Karanganyar, Jawa Tengah. Setibanya disana kegiatan dimulai dengan penjelasan mengenai smart village yang mana desa tersebut merupakan desa sebagai percontohan smart village nasional. Di desa tersebut juga berkembang banyak umkm dengan berjumlah total hingga saat ini ada sebanyak 48 umkm dari total target berjumlah 50 umkm. Berbagai produk dihasilkan oleh umkm yang ada di desa tersebut sebagai contoh produknya yaitu Kripik jamur, Kripik Pare, Frozen food, Jamu Bubuk instant, tanaman hias, aneka olahan ubi dan masih banyak lagi.</p>
@@ -114,11 +116,12 @@ class Data extends BaseController
 				
 				<p>Berbagai upaya yang dilakukan dalam kegiatan pengabdian masyarakat ini, dimana mereka masih mengupayakannya dengan ide berupa meningkatkan online shop mereka di media sosial yang ada, merekap dan memberikan ruang akses di internet dengan menggunakan media web tentang umkm, dan bisa ditambah dengan membuat video profil desa tersebut sebagai media promosi. Semoga kegiatan pengabdian tersebut dapat berjalan dengan lancar dan memberikan hasil yang sesuai dengan apa yang diinginkan.</p>'
 			],
-			[
+			'3' => [
 				'author'	=> 'Mikroptik',
 				'tanggal'	=> '28 Feb 2021',
 				'judul'		=> 'Video Profile PTIK 2021 Branding dengan semangat kompetisi',
 				'gambar'	=> 'berita3.jpg',
+				'link'		=> '/berita/3',
 				'isi'		=> '<p>Dalam rangka ikut memeriahkan perlombaan dies natalis Universitas Sebelas Maret Fakultas Keguruan dan Ilmu Pendidikan, Pendidikan Teknik Informatika mengeluarkan Video Profile PTIK baru. Video profil kali ini dibuat oleh beberapa mahasiswa PTIK sendiri diantaranya adalah Firman Adiyuda sebagai  Penulis & Sutradara; Devin Michael Brahmasta sebagai Penata Kamera; Army sebagai Asisten Kameramen; Dito, Alta, Fikri sebagai Editor; Aini Erma sebagai Asisten Produksi, Radaza, Daniel Sebagai Pemeran.</p>
 
 				<p>Pembuatan video ini dilaksanakan dalam kurun waktu 2 setengah hari di kampus 5 JPTK UNS. video yang dibuat dalam kurun waktu 2 setengah hari tersebut berdurasi 7 menit 7 detik. Adapun beberapa kendala juga dialami dalam proses pembuatan video profile PTIK. Kendala yang sering terjadi selama proses pembuatan yaitu take berulang ulang karena belum sempat gladi bersih jadi lebih lama dalam pembuatannya.</p>	'
@@ -193,5 +196,63 @@ class Data extends BaseController
 			]
 		];
 		return $visimisi;
+	}
+
+	public function dataFasilitas()
+	{
+		$fasiliitas = [
+			'fasilitas' => [
+				'gambar' => 'fasilitas.jpg',
+				'isi' => '<p>Progam Studi S-1 Pendidikan Teknik Informatika dan Komputer FKIP UNS menempati gedung yang cukup luas, representative dan strategis di lingkungan FKI Universitas Sebelas Maret. Lokasi kampus berada di kampusKentingan Surakarta yang merupakan kampus pusat FKIP UNS. Fasilitas fisik tersebut akan dimanfaatkan secara optimal. Di lokasi tersebut juga telah tersedia laboratorium komputer yang cukup memadai dan representativeuntuk digunakan sebagai sarana pembelajaran pada Program Studi Pendidikan Teknik Informatika dan Komputer.</p>
+				<p>
+				1. Gedung kuliah<br>
+				2. Laboratorium<br>
+				3. Perpustakaan<br>
+				4. Studio Multimedia
+				</p>'
+			],
+			'gedung' => [
+				'gambar' => 'gedung.jpg',
+				'isi' => '<p>	Gedung Kuliah PTIK berada di Kampus V Jurusan Pendidikan Teknik Kejuruan Fakultas Keguruan dan Ilmu Pendidikan Universitas Sebelas Maret Surakarta yang beralamatkan di Jl. Jend. Ahmad Yani 200A Pabelan, Kartasura, Sukoharjo 57100. Terdapat tiga program studi yang berada di Kampus V JPTK FKIP UNS yakni Pendidikan Teknik Mesin (PTM), Pendidikan Teknik Bangunan (PTB) dan juga Pendidikan Teknik Informatika dan Komputer (PTIK).</p>
+
+				</p>	Terdapat 2 Gedung utama di Kampus V JPTK FKIP UNS yang dapat digunakan untuk proses belajar mengajar. Selain ruang kuliah, PTIK juga memiliki beberapa ruang untuk proses perkuliahan seperti Laboratorium Komputer, Laboratorium Jaringan, Laboratorium Perakitan dan Maintenance, Studio Multimedia, serta Perpustakaan.</p>'
+			],
+			'laboratorium' => [
+				'gambar' => 'laboratorium.jpg',
+				'isi' => '<p>	Laboratorium memegang peranan yang sangat penting dalam proses pembelajaran pada program studi S1 Teknik Informatika. Laboratorium komputer yang berada di FKIP UNS selalu berkoordinasi dengan ICT Center FKIP UNS dan UPT Pusat Komputer (PUSKOM) UNS. Hal ini dilakukan agar terjadi sharing informasi dan teknologi serta membantu dalam pelaksanaan e-learning. Adapun rincian informasi mengenai sarana dan prasarana yang tersedia di Laboratorium Komputer dapat dilihat pada menu di bawah ini :</p>
+
+					1. Laboratorium Komputer<br>
+					<img src="/template/assets/images/fasilitas/lab-1.png" alt="">
+					<img src="/template/assets/images/fasilitas/lab-2.png" alt="" class="mb-10">
+
+					2. Laboratorium Microteaching<br><br>
+					
+					<p>		Untuk menghasilkan lulusan tenaga kependidikan (guru) yang berkualitas maka mahasiswa perlu dibekali dengan pengetahuan dan praktik menjadi guru yang berkompeten. Sebelum mahasiswa diterjunkan untuk Program pengalaman Lapangan (PPL) di sekolah mitra, maka perlu mendalami kegiatan pembelajaran secara micro. Di laboratorium microteaching ini, mahasiswa dapat mempraktikkan kegiatan sebagai guru. Untuk memenuhi kebutuhan akan laboratorium microteaching, pada tahun-tahun awal, program studi pendidikan teknologi informatika dan komputer dapat melakukan resource sharing dengan program studi lain di jurusan PTK. Sedangkan untuk tahun-tahun selanjutnya, akan diusahakan laboratorium microteaching yang memadai melalui hibah kompetitif A2, atau sumber dana lainnya.</p>'
+			],
+			'perpustakaan' => [
+				'gambar' => 'perpus.jpg',
+				'isi' => '<p>Perpustakaan merupakan fasilitas penunjang paling penting dalam proses belajar mengajar. Selain perpustakaan di tingkat fakultas, di setiap prodi atau BKK di lingkungan FKIP juga mempunyai perpustakaan sehingga mempermudah civitas akademika untuk memperoleh buku, jurnal atau karya ilmiah lainnya. Perpustakaan di tingkat fakultas dan perpustakaan (ruang baca) di setiap prodi atau BKK selalu bersinergi untuk memenuhi kebutuhan mahasiswa dalam hal penyediaan referensi. Sejak tahun 2008 pelayanan perpustakaan sudah menggunakan Sistem Digital Library yang memudahkan pengguna perpustakaan  dalam mengakses ilmu pengetahuan dan teknologi.
+				</p>'
+			],
+			'studio' => [
+				'gambar' => 'studio.jpg',
+				'isi' => '<p>Studio Multimedia merupakan salah satu fasilitas yang cukup penting untuk menunjang serta meningkatkan kreativitas dari mahasiswa, tak terkecuali untuk mahasiswa Pendidikan Teknik Informatika dan Komputer. Sesuai visi dari prodi PTIK yakni sebagai “program studi penghasil dan pengembang tenaga pendidik di bidang teknologi informatika dan komputer yang unggul, berkarakter kuat dan cerdas serta berdaya saing tinggi,mandiri, dan berkepribadian”, maka multimedia pun menjadi salah satu materi penting yang perlu dikuasai oleh mahasiswa PTIK.</p
+
+				<p>Studio Multimedia memiliki peralatan-peralatan multimedia yang cukup memadai seperti komputer dengan spesifikasi mumpuni, peralatan-peralatan fotografi serta peralatan-peralatan broadcasting. Berbagai aktivitas yang berhubungan dengan multimedia pun dapat dilakukan di studio multimedia ini seperti fotografi, membuat animasi, broadcasting, hingga membuat streaming video.
+				</p>'
+			],
+			'spmb' => [
+				'gambar' => 'spmb.jpg',
+				'isi' => '<p>Berikut adalah alur peendaftaran Program Studi Pendidikan Teknik Informatika dan Komputer ( PTIK ) :
+				</p>'
+			],
+			'akreditasi' => [
+				'gambar' => 'akreditasi.jpg',
+				'isi' => '<p>Berdasarkan SK BAN-PT NOMOR : 4485/SK/BAN-PT/Akred/S/XI/2019 , Program Studi Pendidikan Teknik Informatika dan Komputer UNS telah terakreditasi dengan peringkat A. Berikut ini adalah dokumen pendukung bukti akreditasi terhitung sejak tanggal 6 – November – 2019 sampai dengan 6 – November – 2024
+				</p>'
+			],
+		];
+
+		return $fasiliitas;
 	}
 }
